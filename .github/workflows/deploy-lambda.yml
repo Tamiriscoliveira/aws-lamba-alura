@@ -14,7 +14,7 @@ jobs:
   
       - name: generaty zip 
         run: |
-           zip deployment.zip *.zip
+           zip deployment.zip *.mjs
       - name: default deploy
         uses: appleboy/lambda-action@v0.2.0
         with:
